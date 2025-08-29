@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background: #35424a;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background: #e8491d;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #dddddd;
+}
+
+.task-item h3 {
+    margin: 0;
+}
+
+.task-form {
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    margin: 20px 0;
+}
+
+button {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e8491d;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
